@@ -17,7 +17,7 @@
     display: block;
     width: 95%;
     height: 1px;
-    background-color: #FFFFFF;
+    background-color: gray;
 }
 
 .header-first{
@@ -31,7 +31,7 @@
     display: block;
     width: 105.5%;
     height: 1px;
-    background-color: #FFFFFF;
+    background-color: gray;
 }
 
 .text-container-first {
@@ -64,7 +64,7 @@
   }
   
   .button-first {
-    background-color: gray;
+    background-color: #FCFAF8;
     border: none;
     border-radius: 2vw;
     width: 4vw;
@@ -89,3 +89,184 @@
     color: gray;
   }
   
+
+/* second section */
+.outer-container-sec{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+    height: 90vh;
+}
+
+.text-container-sec{
+    margin-top: -3vw;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 2vw;
+}
+
+.buddy-text{
+    margin-top: 14%;
+    color: #FFFFFF;
+    font-size: 12vw;
+    line-height: 0.8;
+    margin-bottom: 3vw;
+}
+
+ 
+.button-text-container-sec {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+  }
+  
+  .text-sec {
+    color: grey;
+    font-size: 1.3vw;
+    margin-left: 0.8vw;
+  }
+  
+  .button-first {
+    background-color: #FCFAF8;
+    border: none;
+    border-radius: 2vw;
+    width: 3vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+  }
+  
+
+/* third section */
+.outer-container-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ECEAE8;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 70vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    position: absolute;
+  }
+  
+  
+  .text-container-bottom-left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* border: 2px solid red; */
+    bottom: 0;
+    left: 0;
+    color: black;
+    padding: 10px;
+  }
+
+  .left-text-container-third{
+    display: flex;
+  }
+
+  .star-img-third {
+    margin-right: 0.5vw;
+  }
+
+  .whoisdeebee-text{
+    color: rgb(99, 98, 98);
+    font-weight: 500;
+    font-size: .8vw;
+    margin-top: .4vw;
+    margin-left: .3vw;
+  }
+
+  .bottom-text-container-third{
+    display: flex;
+    margin-top: 1vw;
+  }
+
+  .text-third{
+    color: rgb(99, 98, 98);
+    font-weight: 500;
+    font-size: .8vw;
+    margin-top: .4vw;
+    margin-left: .3vw;
+  }
+
+  .button-third{
+    background-color: lightgray;
+    border: none;
+    border-radius: 2vw;
+    width: 3vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+  }
+  
+  .text-container-top-right {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    padding: 10px;
+  }
+
+  .whoislookaa-text{
+    color: rgb(99, 98, 98);
+    font-weight: 500;
+    font-size: .8vw;
+    margin-top: .4vw;
+    margin-left: .3vw;
+  }
+
+  .text-third-lookaa{
+    color: rgb(99, 98, 98);
+    font-weight: 500;
+    font-size: .8vw;
+    margin-top: .4vw;
+    margin-left: .3vw;
+  }
+
+/* footer section */
+.footer-container{
+  height: 40vh; /* Adjust the height as needed */
+  background-color: #1E1E1E;
+}
+
+.footer-inner-container{
+    height: 30vh;
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+}
+
+.oval-button {
+    border: 1px solid gray; /* Add a white border */
+    border-radius: 50px;
+    background-color: #1E1E1E;
+    color: gray;
+    padding: 10px 20px;
+    font-size: 16px;
+    float: right;
+    margin-top: 4vw;
+  }
+
+  .footer-line{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+  }

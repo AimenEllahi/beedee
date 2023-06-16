@@ -35,14 +35,14 @@ const MascotModel = () => {
 export default function Index() {
   
   return (
-    <div className="outer-container-first" style={{ width: "100%", height: "200vh", backgroundColor: "#1E1E1E" }}>
+    <div className="outer-container-first" style={{ width: "100%", height: "110vh", backgroundColor: "#1E1E1E" }}>
       <div className="inner-container-first" >
         <div className="header-container-first">
           <h1 className="header-first">Born</h1>
         </div>
         <MascotModel/>
         <div className="text-container-first">
-          <h2 className="meet-text">Meet BeeDee</h2>
+          <span className="meet-text">Meet BeeDee</span>
           <div className="button-text-container">
             <span className="text-first">
               Get to know BeeDee more
@@ -58,7 +58,7 @@ export default function Index() {
         </div>
         <div className="bottom-text-container-first">
           <div  className="star-img">
-          <img src="/Star.svg" alt="start" />
+            <img src="/Star.svg" alt="start" />
           </div>
           <span className="star-text">EDEN DIGITAL MASCOTTE</span>
         </div>
