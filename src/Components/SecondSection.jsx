@@ -1,6 +1,11 @@
 import React from "react";
 
 function SecondSection() {
+
+  const handleClick = () => {
+    window.location.href = "/about";
+  }
+
   return (
     <div className='outer-container-sec'>
       <div
@@ -21,7 +26,7 @@ function SecondSection() {
         <span className='buddy-text'>And his buddy, LooKaa</span>
         <div className='button-text-container-sec'>
           <span className='text-sec'>Get to know LooKaa more</span>
-          <button className='button-first'>
+          <button onClick={handleClick} className='button-first'>
             <span
               style={{
                 fontSize: "1.5rem",

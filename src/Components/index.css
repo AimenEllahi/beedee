@@ -22,15 +22,15 @@
 }
 
 .header-first {
-    padding-top:2vw ;
+  padding-top:2vw ;
   color: #FFFFFF;
-  width: 100%;
+  width: 7%;
   margin-top: 0;
 }
 
-.header-first::after {
+.header-container-first::after {
   content: '';
-  margin-top: 1vw;
+  margin-top: 2vw;
   display: block;
   width: 105.5%;
   height: 1px;
@@ -46,6 +46,7 @@
   width: 40%;
   margin-top: 8%;
   margin-left: 9vw;
+  border: 2px solid red;
 }
 
 .meet-text {
@@ -127,8 +128,6 @@
   justify-content: center;
   margin-left: 30%;
   height: 50px;
-
-
 }
 
 .text-sec {
@@ -148,6 +147,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button-first:hover{
+  cursor: pointer;
 }
 
 
@@ -223,6 +226,10 @@
   margin-top: -0.5vw;
 }
 
+.button-third:hover{
+  cursor: pointer;
+}
+
 .text-container-top-right {
   display: flex;
   flex-direction: column;
@@ -283,6 +290,10 @@
   float: right;
   margin-right: 5vw;
   margin-top: 4vw;
+}
+
+.oval-button:hover{
+  cursor: pointer;
 }
 
 .footer-line{

@@ -8,6 +8,7 @@ import { useGLTF } from '@react-three/drei'
 import { useControls } from 'leva'
 import { useFrame } from '@react-three/fiber'
 
+
 export function Mascot(props) {
   const { nodes, materials } = useGLTF('/Model/Mascot-transformed.glb')
   const {position, rotation, scale} = useControls('Mascot', {
@@ -18,8 +19,8 @@ export function Mascot(props) {
 
   //to orbit the model horizontally
   const ref = useRef()
-  useFrame(() => (ref.current.rotation.y += 0.01))
-
+  //method to rotate the model to opposite side horizontally on click
+  
    
   return (
     <group {...props} dispose={null} ref={ref} position={position} rotation={rotation} scale={scale}>

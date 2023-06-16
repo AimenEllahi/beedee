@@ -1,6 +1,13 @@
 import React from 'react';
 
 function ThirdSection() {
+    const handleLeftClick = () => {
+        window.location.href = "/about";
+      }
+
+      const handleRightClick = () => {
+        window.location.href = "/about";
+      }
   return (
     <div className='outer-container-third'>
       <div className='image-container'>
@@ -21,7 +28,7 @@ function ThirdSection() {
                 <span className="text-third">
                     Get your own BeeDee
                 </span>
-                <button className="button-third">
+                <button onClick={handleLeftClick} className="button-third">
                     <span style={{
                         fontSize: "1.3rem",
                         }} >
@@ -44,7 +51,7 @@ function ThirdSection() {
                 <span className="text-third-lookaa">
                     Get your own LooKaa
                 </span>
-                <button className="button-third">
+                <button onClick={handleRightClick} className="button-third">
                     <span style={{
                         fontSize: "1.3rem",
                         }} >
