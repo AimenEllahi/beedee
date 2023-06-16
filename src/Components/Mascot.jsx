@@ -5,11 +5,24 @@ Command: npx gltfjsx@6.2.3 Mascot.glb --transform
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { useControls } from 'leva'
+import { useFrame } from '@react-three/fiber'
 
 export function Mascot(props) {
   const { nodes, materials } = useGLTF('/Model/Mascot-transformed.glb')
+  const {position, rotation, scale} = useControls('Mascot', {
+    position: { value: [-2,-8.5,-48.40000000000001], step: 0.1 },
+    rotation: { value: [0, 0, 0], step: 0.1 },
+    scale: { value: 0.7, step: 0.1 },
+  })
+
+  //to orbit the model horizontally
+  const ref = useRef()
+  useFrame(() => (ref.current.rotation.y += 0.01))
+
+   
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} ref={ref} position={position} rotation={rotation} scale={scale}>
       <mesh geometry={nodes.Tail003.geometry} material={nodes.Tail003.material} position={[9.224, 3.282, -1.451]} scale={[0.793, 0.793, 1.479]} />
       <mesh geometry={nodes.Curve002.geometry} material={materials['Material.077']} position={[-1.65, 6.166, 5.585]} rotation={[Math.PI / 2, 0, -0.01]} scale={62.324} />
       <mesh geometry={nodes.Cube109.geometry} material={materials['Material.001']} position={[9.742, 2.893, 5.686]} rotation={[Math.PI, 0, Math.PI]} scale={[0.251, 0.496, 0.357]} />
