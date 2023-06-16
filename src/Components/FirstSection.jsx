@@ -18,7 +18,7 @@ const Loader = () => {
 
 const MascotModel = () => {
   return (
-    <div style={{ width: "45%", height: "80vh", backgroundColor: "#1E1E1E", float: "right"  }}>
+    <div style={{ width: "45%", height: "80vh", backgroundColor: "#1E1E1E", float: "right", margin: "0", padding: "0"  }}>
       <Canvas camera={{ position: [0, 0, 0], fov: 37 }} >
         <ambientLight intensity={0.8} />
         <spotLight position={[10, 15, 10]} angle={0.3} />
