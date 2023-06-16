@@ -11,7 +11,7 @@ import { useFrame } from '@react-three/fiber'
 export function Mascot(props) {
   const { nodes, materials } = useGLTF('/Model/Mascot-transformed.glb')
   const {position, rotation, scale} = useControls('Mascot', {
-    position: { value: [-2,-8.5,-48.40000000000001], step: 0.1 },
+    position: { value: [15.1,-8.5,-48.40000000000001], step: 0.1 },
     rotation: { value: [0, 0, 0], step: 0.1 },
     scale: { value: 0.7, step: 0.1 },
   })

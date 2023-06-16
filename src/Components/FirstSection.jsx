@@ -18,7 +18,7 @@ const Loader = () => {
 
 const MascotModel = () => {
   return (
-    <div style={{ width: "45%", height: "80vh", backgroundColor: "#1E1E1E", float: "right", margin: "0", padding: "0"  }}>
+    <div style={{ width: "100%", height: "80vh", backgroundColor: "#1E1E1E", float: "right", margin: "0", padding: "0", position: "relative" }}>
       <Canvas camera={{ position: [0, 0, 0], fov: 37 }} >
         <ambientLight intensity={0.8} />
         <spotLight position={[10, 15, 10]} angle={0.3} />
@@ -35,7 +35,7 @@ const MascotModel = () => {
 export default function Index() {
   
   return (
-    <div className="outer-container-first" style={{ width: "100%", height: "110vh", backgroundColor: "#1E1E1E" }}>
+    <div className="outer-container-first" style={{ width: "100%", height: "110vh", backgroundColor: "#1E1E1E"}}>
       <div className="inner-container-first" >
         <div className="header-container-first">
           <h1 className="header-first">Born</h1>
