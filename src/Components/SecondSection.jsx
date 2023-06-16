@@ -1,10 +1,9 @@
 import React from "react";
 
 function SecondSection() {
-
   const handleClick = () => {
     window.location.href = "/about";
-  }
+  };
 
   return (
     <div className='outer-container-sec'>
@@ -19,7 +18,7 @@ function SecondSection() {
           alignItems: "center",
         }}
       >
-        <img src='/Doing.png' alt='Your Image' />
+        <img src='/Doing.png' alt='beedee' />
       </div>
 
       <div className='text-container-sec'>

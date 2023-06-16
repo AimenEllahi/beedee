@@ -22,7 +22,7 @@
 }
 
 .header-first {
-  padding-top:2vw ;
+  padding-top: 2vw;
   color: #FFFFFF;
   width: 7%;
   margin-top: 0;
@@ -38,7 +38,7 @@
 }
 
 .text-container-first {
-    position: absolute;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -46,7 +46,7 @@
   width: 40%;
   margin-top: 8%;
   margin-left: 9vw;
-  border: 2px solid red;
+
 }
 
 .meet-text {
@@ -149,7 +149,7 @@
   justify-content: center;
 }
 
-.button-first:hover{
+.button-first:hover {
   cursor: pointer;
 }
 
@@ -226,7 +226,7 @@
   margin-top: -0.5vw;
 }
 
-.button-third:hover{
+.button-third:hover {
   cursor: pointer;
 }
 
@@ -266,16 +266,16 @@
 }
 
 .footer-inner-container {
-    display: flex;
-    width: 90vw ;
-    height: 15vh;
-    margin: auto;
-    justify-content: space-between;
+  display: flex;
+  width: 90vw;
+  height: 15vh;
+  margin: auto;
+  justify-content: space-between;
 }
 
-.footer-text{
-    margin-top: 7%;
-    color: gray;
+.footer-text {
+  margin-top: 7%;
+  color: gray;
 }
 
 
@@ -292,17 +292,17 @@
   margin-top: 4vw;
 }
 
-.oval-button:hover{
+.oval-button:hover {
   cursor: pointer;
 }
 
-.footer-line{
-    content: '';
-    float: left;
-    display: block;
-    width: 91%;
-    margin-left:4vw ;
-    height: 1px;
-    background-color: gray;
-    margin-top: 3vw;
-  }
+.footer-line {
+  content: '';
+  float: left;
+  display: block;
+  width: 91%;
+  margin-left: 4vw;
+  height: 1px;
+  background-color: gray;
+  margin-top: 3vw;
+}
