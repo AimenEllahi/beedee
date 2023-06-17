@@ -14,7 +14,7 @@ function ThirdSection() {
       <div className='image-container'>
         <img
           style={{
-            width: "60%",
+            width: "50%",
           }}
           src='/goedwhite2.png'
           alt='beedee'
