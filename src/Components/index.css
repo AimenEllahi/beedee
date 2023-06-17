@@ -96,27 +96,24 @@
 
 .circle {
   position: absolute;
-  margin-top: 22%;
-  margin-left: 38%;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: linear-gradient(45deg, #888888, rgb(126, 120, 120));
-  opacity: .8;
+  margin-top: 23%;
+  margin-left: 32%;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 5;
 }
 
+.circle>img {
+  width: 100%;
+}
+
 .circle:hover {
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .scroll-text {
   font-size: 24px;
   color: #ffffff;
 }
-
-
-

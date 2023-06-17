@@ -17,9 +17,7 @@ export function Mascot(props) {
       {...props}
       dispose={null}
       ref={ref}
-      position={[
-        window.innerWidth < 750 ? 0 : 15.1
-      , -8.5, -48.4]}
+      position={[window.innerWidth < 750 ? 0 : 10, -8.5, -48.4]}
       scale={0.7}
     >
       <PresentationControls

@@ -19,7 +19,7 @@ const MascotModel = () => {
     >
       <Canvas camera={{ position: [0, 0, 0], fov: 37 }}>
         <ambientLight intensity={0.8} />
-        <spotLight position={[10, 15, 10]} angle={0.3} />
+
         <Suspense fallback={null}>
           <directionalLight intensity={0.5} />
           <pointLight position={[10, 5, 10]} />
@@ -38,11 +38,11 @@ export default function Index() {
       style={{ width: "100%", height: "110vh", backgroundColor: "#1E1E1E" }}
     >
       <div className='inner-container-first'>
-        <div className="circle">
-          <span className="scroll-text">Scroll</span>
+        <div className='circle'>
+          <img src='/ScrollPointer.png' alt='scroll' />
         </div>
         <div className='header-container-first'>
-          <img className="header-first" src="/BD_Logo.svg" alt="" />
+          <img className='header-first' src='/BD_Logo.svg' alt='' />
         </div>
         <MascotModel />
         <div className='text-container-first'>

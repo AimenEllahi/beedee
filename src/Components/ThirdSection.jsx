@@ -1,5 +1,5 @@
 import React from "react";
-import "./ThirdSection.css"
+import "./ThirdSection.css";
 
 function ThirdSection() {
   const handleLeftClick = () => {
@@ -14,7 +14,7 @@ function ThirdSection() {
       <div className='image-container'>
         <img
           style={{
-            width: "200%",
+            width: "60%",
           }}
           src='/goedwhite2.png'
           alt='beedee'
