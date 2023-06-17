@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { Mascot } from "./Mascot";
+import { TestMascot } from "./TestMacot";
 import "./styles/index.css";
 
 
@@ -24,7 +24,7 @@ const MascotModel = () => {
         <Suspense fallback={null}>
           <directionalLight intensity={0.5} />
           <pointLight position={[10, 5, 10]} />
-          <Mascot />
+          <TestMascot />
         </Suspense>
         <OrbitControls />
       </Canvas>
