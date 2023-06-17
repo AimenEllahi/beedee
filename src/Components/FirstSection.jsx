@@ -38,6 +38,9 @@ export default function Index() {
       style={{ width: "100%", height: "110vh", backgroundColor: "#1E1E1E" }}
     >
       <div className='inner-container-first'>
+        <div className="circle">
+          <span className="scroll-text">Scroll</span>
+        </div>
         <div className='header-container-first'>
           <img className="header-first" src="/BD_Logo.svg" alt="" />
         </div>

@@ -94,6 +94,28 @@
   color: gray;
 }
 
+.circle {
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 38%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #888888, rgb(126, 120, 120));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.circle:hover {
+  cursor: pointer;  
+}
+
+.scroll-text {
+  font-size: 24px;
+  color: #ffffff;
+}
 
 
 
