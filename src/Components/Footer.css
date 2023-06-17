@@ -1,0 +1,48 @@
+/* footer section */
+.footer-container {
+    height: 40vh;
+    /* Adjust the height as needed */
+    background-color: #1E1E1E;
+  }
+  
+  .footer-inner-container {
+    display: flex;
+    width: 90vw;
+    height: 15vh;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  .footer-text {
+    margin-top: 7%;
+    color: gray;
+  }
+  
+  
+  .oval-button {
+    border: 1px solid gray;
+    /* Add a white border */
+    border-radius: 50px;
+    background-color: #1E1E1E;
+    color: gray;
+    padding: 10px 20px;
+    font-size: 16px;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 4vw;
+  }
+  
+  .oval-button:hover {
+    cursor: pointer;
+  }
+  
+  .footer-line {
+    content: '';
+    float: left;
+    display: block;
+    width: 91%;
+    margin-left: 4vw;
+    height: 1px;
+    background-color: gray;
+    margin-top: 3vw;
+  }

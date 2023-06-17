@@ -39,7 +39,7 @@ export default function Index() {
     >
       <div className='inner-container-first'>
         <div className='header-container-first'>
-          <h1 className='header-first'>Born</h1>
+          <img className="header-first" src="/BD_Logo.svg" alt="" />
         </div>
         <MascotModel />
         <div className='text-container-first'>
