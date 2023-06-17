@@ -4,6 +4,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Mascot } from "./Mascot";
 import "./styles/index.css";
 
+
 const MascotModel = () => {
   return (
     <div
