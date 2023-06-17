@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Mascot } from "./Mascot";
-import "./index.css";
+import "./styles/index.css";
 
 const MascotModel = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./ThirdSection.css";
+import "./styles/ThirdSection.css";
 
 function ThirdSection() {
   const handleLeftClick = () => {

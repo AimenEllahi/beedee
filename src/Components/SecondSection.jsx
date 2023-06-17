@@ -1,5 +1,5 @@
 import React from "react";
-import "./SecondSection.css";
+import "./styles/SecondSection.css";
 
 function SecondSection() {
   const handleClick = () => {
